@@ -2,6 +2,16 @@
 
 React wrappers for [Material Web Components](https://github.com/material-components/material-web) (Material Design 3).
 
+> **⚠️ Under Active Development**
+> This library is currently in early development (v0.0.1). APIs may change, and some features might be incomplete or unstable. Use in production at your own risk.
+>
+> **Status:**
+> - ✅ Core components implemented
+> - ✅ TypeScript support
+> - 🚧 Documentation in progress
+> - 🚧 Testing framework coming soon
+> - 🚧 Styling system improvements ongoing
+
 ## Description
 
 This library provides ready-to-use React components that wrap Material Design 3 web components. All components are fully typed with TypeScript and easily integrate into React applications.
@@ -386,14 +396,57 @@ Browse available icons at [Google Fonts Icons](https://fonts.google.com/icons).
 
 ## Development
 
+This project is actively being developed. To contribute or work on the library locally:
+
 ```bash
+# Clone the repository
+git clone https://github.com/Suika-Sensei/material-react.git
+cd material-react
+
+# Install dependencies
+npm install
+
 # Type checking
 npm run typecheck
 ```
 
+### Project Structure
+
+```
+material-react/
+├── components/     # React component wrappers
+├── utils/          # Utility functions (createComponent, etc.)
+├── styles/         # Material Symbols icon styles
+├── index.ts        # Main entry point
+└── README.md       # Documentation
+```
+
+### Roadmap
+
+- [ ] Complete test coverage
+- [ ] Storybook integration for component showcase
+- [ ] Advanced theming API
+- [ ] Accessibility improvements
+- [ ] Performance optimizations
+- [ ] npm package publication
+
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This project is under active development and contributions are highly encouraged!
+
+We welcome:
+- 🐛 Bug reports and fixes
+- ✨ New component wrappers
+- 📚 Documentation improvements
+- 🧪 Tests and quality improvements
+- 💡 Feature suggestions
+
+Please feel free to:
+1. Open an issue to discuss your ideas
+2. Fork the repository
+3. Submit a Pull Request
+
+Every contribution helps make this library better!
 
 ## License
 
