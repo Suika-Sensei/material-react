@@ -19,7 +19,7 @@ Or add to your `package.json`:
 ```json
 {
   "dependencies": {
-    "@material-react/web": "github:suika-sensei/material-react"
+    "material-react": "github:suika-sensei/material-react"
   }
 }
 ```
@@ -37,7 +37,7 @@ npm install @material/web
 ### Basic Example
 
 ```tsx
-import { FilledButton, OutlinedTextField } from "@material-react/web";
+import { FilledButton, OutlinedTextField } from "material-react";
 
 function MyComponent() {
   const [name, setName] = useState("");
@@ -300,7 +300,7 @@ function MyComponent() {
 All components are fully typed. You can import types:
 
 ```tsx
-import { ButtonProps, TextFieldProps } from "@material-react/web";
+import { ButtonProps, TextFieldProps } from "material-react";
 ```
 
 ## Creating Custom Components
@@ -308,7 +308,7 @@ import { ButtonProps, TextFieldProps } from "@material-react/web";
 You can use the `createComponent` utility to create wrappers for other web components:
 
 ```tsx
-import { createComponent, BaseProps } from "@material-react/web";
+import { createComponent, BaseProps } from "material-react";
 
 interface MyComponentProps extends BaseProps {
   myProp?: string;
